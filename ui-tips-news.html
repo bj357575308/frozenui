@@ -2,22 +2,16 @@
 <html lang="">
     <head>
         <meta charset="UTF-8">
-        <title>FrozenUI - ui-btn-group</title>
+        <title>FrozenUI - ui-tips-news</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="Description" content="专注于移动web的UI框架，基于手机QQ规范" />
         <meta name="Keywords" content="frozen，frozenui，frozenjs，forzen ui，forzen js" />
         <meta name="author" content="fayching" />
         <link type="image/x-icon" href="http://frozenui.github.io/static/favicon.ico" rel="icon">
-<<<<<<< HEAD
-       <!--  <link rel="stylesheet" href="http://i.gtimg.cn/vipstyle/frozenui/1.2.2/css-debug/frozen.css" />
-        <link rel="stylesheet" href="http://i.gtimg.cn/vipstyle/frozenui/1.2.2/css-debug/vip.css" />  -->
-        <link rel="stylesheet" href="static/1.2.2/css-debug/global.css" />
-=======
        <!--  <link rel="stylesheet" href="http://i.gtimg.cn/vipstyle/frozenui/1.2.0/css-debug/frozen.css" />
         <link rel="stylesheet" href="http://i.gtimg.cn/vipstyle/frozenui/1.2.0/css-debug/vip.css" />  -->
         <link rel="stylesheet" href="static/1.2.0/css-debug/frozen.css" />
         <link rel="stylesheet" href="static/1.2.0/css-debug/vip.css" />
->>>>>>> 25500f1593e3e7cb74d3b4488a4d94791733fee7
         <link rel="stylesheet" href="http://frozenui.github.io/static/style.css" />
         <link rel="stylesheet" href="http://frozenui.github.io/static/solarized.css" />
         
@@ -79,11 +73,7 @@
         seajs.use(['sticky','side'], function(Sticky,Side) {
             Side.init();
             if(document.body.clientWidth>980){
-<<<<<<< HEAD
-                Sticky('.side-area', 20);
-=======
             	Sticky('.side-area', 20);
->>>>>>> 25500f1593e3e7cb74d3b4488a4d94791733fee7
             }
             
         });
@@ -101,35 +91,23 @@
             </div>
             <div class="main-area">
                 <div class="side-area">
-<<<<<<< HEAD
-                    <ul><li><a href="#底部操作区">底部操作区</a></li><li><a href="#并排按钮">并排按钮</a></li></ul>
-=======
                     <ul>
                     </ul>
->>>>>>> 25500f1593e3e7cb74d3b4488a4d94791733fee7
                 </div> 
                 <script type="text/template" id="list-template">
                     <li><a href="#"></a></li>
                 </script>  
                 <div class="content-area">
-                    <h1>ui-btn-group</h1>
-                    <div class="content"><h3 id="底部操作区">底部操作区</h3><div class="nico-insert-code"><div class="ui-btn-group ui-btn-group-bottom">
-    <button type="button">加为好友</button>
-    <button type="button">发消息</button>
-</div>    
-<div class="ui-btn-group ui-btn-group-bottom">
-    <button type="button">加为好友</button>
-</div></div><div class="highlight"><pre><code class="xml"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"ui-btn-group ui-btn-group-bottom"</span>&gt;</span>
-    <span class="tag">&lt;<span class="title">button</span> <span class="attribute">type</span>=<span class="value">"button"</span>&gt;</span>加为好友<span class="tag">&lt;/<span class="title">button</span>&gt;</span>
-    <span class="tag">&lt;<span class="title">button</span> <span class="attribute">type</span>=<span class="value">"button"</span>&gt;</span>发消息<span class="tag">&lt;/<span class="title">button</span>&gt;</span>
-<span class="tag">&lt;/<span class="title">div</span>&gt;</span>    
-<span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"ui-btn-group ui-btn-group-bottom"</span>&gt;</span>
-    <span class="tag">&lt;<span class="title">button</span> <span class="attribute">type</span>=<span class="value">"button"</span>&gt;</span>加为好友<span class="tag">&lt;/<span class="title">button</span>&gt;</span>
-<span class="tag">&lt;/<span class="title">div</span>&gt;</span></code></pre></div><h3 id="并排按钮">并排按钮</h3><div class="nico-insert-code"><div class="ui-btn-group-tiled ui-btn-wrap">
-    <button class="ui-btn-lg">拒绝</button> <button class="ui-btn-lg ui-btn-primary">同意</button>
-</div></div><div class="highlight"><pre><code class="xml"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"ui-btn-group-tiled ui-btn-wrap"</span>&gt;</span>
-    <span class="tag">&lt;<span class="title">button</span> <span class="attribute">class</span>=<span class="value">"ui-btn-lg"</span>&gt;</span>拒绝<span class="tag">&lt;/<span class="title">button</span>&gt;</span> <span class="tag">&lt;<span class="title">button</span> <span class="attribute">class</span>=<span class="value">"ui-btn-lg ui-btn-primary"</span>&gt;</span>同意<span class="tag">&lt;/<span class="title">button</span>&gt;</span>
-<span class="tag">&lt;/<span class="title">div</span>&gt;</span></code></pre></div></div>
+                    <h1>ui-tips-news</h1>
+                    <div class="content"><h3 id="default">default</h3><div class="nico-insert-code"><section class="ui-tips-news-wrap">
+    <div class="ui-tips-news">
+    您有一条新消息
+    </div>
+</section></div><div class="highlight"><pre><code class="xml"><span class="tag">&lt;<span class="title">section</span> <span class="attribute">class</span>=<span class="value">"ui-tips-news-wrap"</span>&gt;</span>
+    <span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"ui-tips-news"</span>&gt;</span>
+    您有一条新消息
+    <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
+<span class="tag">&lt;/<span class="title">section</span>&gt;</span></code></pre></div></div>
                 </div>  
             </div>
             <div class="footer-area">
