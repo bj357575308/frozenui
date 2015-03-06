@@ -862,13 +862,10 @@ em {
 /**
  * 选项卡
  */
-<<<<<<< HEAD
 .ui-tab {
   width: 100%;
   overflow: hidden; }
 
-=======
->>>>>>> 25500f1593e3e7cb74d3b4488a4d94791733fee7
 .ui-tab-nav {
   width: 100%;
   background-color: #fff;
@@ -1037,15 +1034,11 @@ em {
   display: -webkit-box;
   -webkit-box-orient: vertical;
 <<<<<<< HEAD
-<<<<<<< HEAD
   -webkit-box-pack: center;
   padding: 7px 0; }
 =======
   -webkit-box-pack: center; }
 >>>>>>> be78497d7827d9e7f567b81efbe6289ef1c1727a
-=======
-  -webkit-box-pack: center; }
->>>>>>> 25500f1593e3e7cb74d3b4488a4d94791733fee7
 
 .ui-list-info > h4 {
   font-size: 16px;
@@ -1535,18 +1528,10 @@ li.ui-list-item-link:active, li.ui-list-item-link:active .ui-border-t, li.ui-lis
   width: 100%;
   overflow: hidden;
   position: relative;
-<<<<<<< HEAD
   padding-top: 31.25%; }
 
 .ui-slider-content {
   display: -webkit-box;
-=======
-  padding-top: 62.5%; }
-
-.ui-slider-content {
-  display: -webkit-box;
-  width: 300%;
->>>>>>> 25500f1593e3e7cb74d3b4488a4d94791733fee7
   position: absolute;
   left: 0;
   top: 0; }
@@ -1560,7 +1545,6 @@ li.ui-list-item-link:active, li.ui-list-item-link:active .ui-border-t, li.ui-lis
 
 .ui-slider-indicators {
   position: absolute;
-<<<<<<< HEAD
   display: -webkit-box;
   -webkit-box-pack: center;
   width: 100%;
@@ -1569,31 +1553,17 @@ li.ui-list-item-link:active, li.ui-list-item-link:active .ui-border-t, li.ui-lis
 
 .ui-slider-indicators li {
   display: block;
-=======
-  bottom: 0;
-  right: 10px; }
-
-.ui-slider-indicators li {
-  display: inline-block;
->>>>>>> 25500f1593e3e7cb74d3b4488a4d94791733fee7
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
   width: 8px;
   height: 8px;
   background-color: #a6a6a6;
-<<<<<<< HEAD
   border-radius: 10px;
   margin-right: 5px; }
 
 .ui-slider-indicators li.current {
   background-color: #18b4ed; }
-=======
-  border-radius: 10px; }
-
-.ui-slider-indicators li.current {
-  background-color: #ff4040; }
->>>>>>> 25500f1593e3e7cb74d3b4488a4d94791733fee7
 
 .ui-loading {
   -webkit-animation: rotate 1s steps(12) infinite; }
